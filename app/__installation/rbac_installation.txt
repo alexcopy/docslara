@@ -1,0 +1,9 @@
+Config File And Migrations
+
+Publish the package config file and migrations to your application. Run these commands inside your terminal.
+
+php artisan vendor:publish --provider="DCN\RBAC\RBACServiceProvider" --tag=config
+php artisan vendor:publish --provider="DCN\RBAC\RBACServiceProvider" --tag=migrations
+
+And also run migrations.
+php artisan migrate
